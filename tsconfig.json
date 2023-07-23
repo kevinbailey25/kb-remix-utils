@@ -1,0 +1,22 @@
+{
+	"include": ["**/*.ts", "**/*.tsx"],
+	"exclude": ["playground/*"],
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ES2020"],
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"jsx": "react-jsx",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"target": "ES2019",
+		"strict": true,
+		"allowJs": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true,
+		"noEmit": true,
+		"types": ["vitest/globals"],
+		"paths": {
+			"~/*": ["./src/*"]
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"name": "kb-remix-utils",
+	"version": "1.0.0",
+	"description": "A small utility library for my personal remix projects.",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist/index.d.mts",
+		"dist/index.d.ts",
+		"dist/index.js",
+		"dist/index.mjs"
+	],
+	"scripts": {
+		"build": "tsup",
+		"test": "vitest --passWithNoTests"
+	},
+	"author": "Kevin Bailey",
+	"license": "MIT",
+	"dependencies": {
+		"@hookform/resolvers": "^3.1.1",
+		"@remix-run/react": "^1.19.1",
+		"@remix-run/server-runtime": "^1.19.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.45.2",
+		"zod": "^3.21.4"
+	},
+	"devDependencies": {
+		"@remix-run/eslint-config": "^1.19.1",
+		"@types/eslint": "^8.44.0",
+		"@types/react": "^18.2.15",
+		"@types/react-dom": "^18.2.7",
+		"eslint": "^8.45.0",
+		"eslint-config-prettier": "^8.8.0",
+		"happy-dom": "^10.5.2",
+		"prettier": "^3.0.0",
+		"tsup": "^7.1.0",
+		"typescript": "^5.1.6",
+		"vite-tsconfig-paths": "^4.2.0",
+		"vitest": "^0.33.0"
+	},
+	"peerDependencies": {
+		"@hookform/resolvers": "^3.1.1",
+		"@remix-run/react": "^1.19.1",
+		"@remix-run/server-runtime": "^1.19.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.45.2",
+		"zod": "^3.21.4"
+	}
+}
